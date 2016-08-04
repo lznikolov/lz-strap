@@ -1,0 +1,443 @@
+/*Logo*/
+.logo {
+    margin-top: 8px;
+    float: left;
+}
+
+/*Menu*/
+.menuHolder {
+    width: 100%;
+    height: 140px;
+}
+
+.menuHolder2 {
+    width: 100%;
+    height: 60px;
+}
+
+.navwrap {
+    height: 80px;
+    padding-top: 20px;
+}
+
+.navbar {
+    border-bottom: none;
+}
+
+.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .dropdown-menu {
+    margin-top: 0;
+}
+/*
+.nav-tabs > li {
+    outline: none;
+    margin: 0 auto;
+    color: #fff;
+}
+*/
+#myMenu {
+    min-height: 60px;
+    font-size: 1em;
+    margin: 0 auto;
+    display: table;
+}
+
+.nav-tabs > li a {
+    color: #fff;
+}
+
+.nav-tabs > li.open {
+    background-color: #4c8419;
+}
+
+.nav-tabs > li.open a {
+    color: #fff;
+}
+
+.nav-tabs > li.open a:hover {
+    color: #fff;
+}
+
+#myMenu li a {
+    text-transform: capitalize;
+    font-weight: normal;
+    text-align: left;
+}
+
+#myMenu li a.dropdown-toggle {
+    padding-top: 20px;
+    min-height: 60px;
+}
+
+#myMenu li ul li {
+    display: block;
+}
+
+/*
+#myMenu li {
+    border-left: 1px solid #009b21;
+    margin-top: 18px
+}
+*/
+
+#myMenu li:first-child { border-left: none;  }
+
+.dropdown-menu {
+    background-color: #4c8419;
+    display: none;
+    position: absolute;
+    min-width: 470px;
+    border: none;
+    border-radius: 10px;
+    left: 0;
+}
+
+.dropdown-menu-med {
+    min-width: 600px;
+}
+
+.navbar-default {
+    background: -webkit-linear-gradient(top, rgba(98, 171, 31, 1) 0%, rgba(85, 145, 29, 1) 100%);
+    background: transparent -moz-linear-gradient(center top, #62AB1F 0%, #55911D 100%) repeat scroll 0% 0%;
+    background-position: top left;
+    background-repeat: repeat-x;
+    border-color: transparent;
+    border-radius: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #f6f6f6;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {
+    background-color: #ffffff;
+}
+
+.dropdown-menu-small {
+    min-width: 370px;
+}
+
+.open > .dropdown-menu {
+    display: block !important;
+}
+
+#myMenu li ul div:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#myMenu li ul.dropdown-menu div a {
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#myMenu li ul.dropdown-menu-small div a {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#myMenu li ul.dropdown-menu-med div a {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#myMenu li ul.dropdown-menu div a:hover {
+    color: #ffb600;
+}
+
+#myMenu li ul div a {
+    width: 92%;
+    height: 3.0em;
+    font-size: 0.9em;
+    line-height: 3.2em;
+    font-weight: normal;
+    color: #fff;
+    float: left;
+    display: block;
+}
+
+#myMenu li ul div a:hover {
+    color: #fff;
+}
+
+.menuImgs {
+    height: 73%;
+    margin-top: 4px;
+    margin-right: 10px;
+    float: left;
+}
+
+.menuText {
+    float: left;
+}
+
+.halfWidth {
+    width: 50%;
+    float: left;
+}
+
+.halfWidth a {
+    border-top: 1px solid #5B9E1E;
+}
+
+.fullWidth {
+    width: 100%;
+    float: left;
+}
+
+.fullWidth a {
+    border-top: 1px solid #5B9E1E;
+}
+
+.showGlyphs {
+    display: none;
+}
+
+.nav > li > a {
+    padding: 10px 15px;
+}
+
+.nav-tabs .xs-show {
+    display: none !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1199px) {
+    #myMenu {
+        font-size: 1.15em;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 991px) {
+    .navbar {
+        margin-bottom: 0;
+    }
+
+    .nav > li > a {
+        padding: 10px 7px;
+    }
+
+    .dropdown-menu {
+        box-shadow: none;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 950px) {
+    .nav > li > a {
+        padding: 10px 7px;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 991px) {
+    #myMenu {
+        width: 100%;
+    }
+
+    #myMenu li a.dropdown-toggle:hover {
+        color: #FF9F00;
+    }
+
+    .dropdown-menu {
+        min-width: 100%;
+        display: block;
+    }
+
+    .navbar-fixed-bottom, .navbar-fixed-top {
+        overflow: auto;
+    }
+
+    #myMenu li a.dropdown-toggle {
+        padding-top: 32px;
+        min-height: 60px;
+        background-color: #4c8419;
+        color: #fff;
+    }
+
+    .dropdown-menu {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .navbar-collapse.in {
+        max-height: 88vh;
+    }
+
+    #myMenu li {
+        width: 100%;
+    }
+
+    .yHidden {
+        overflow: hidden !important;
+    }
+
+    .fullWidth {
+        border-bottom: 1px solid #4c8419;
+    }
+
+    .halfWidth {
+        width: 100%;
+        border-bottom: 1px solid #4c8419;
+    }
+
+    .navbar-toggle {
+        margin-right: 2.5em;
+        margin-top: 1.5em;
+        margin-bottom: 1.3em;
+    }
+
+    .logo {
+        margin-left: 1.2em;
+    }
+
+    .nav-tabs > li.open {
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .container-fluid.affix-top {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin: 0;
+        z-index: 3;
+    }
+
+    .nav > li > a {
+        padding: 10px 20px;
+    }
+
+    .nav-tabs > li a {
+        color: #fff;
+    }
+
+    #myMenu li ul.dropdown-menu div a {
+        width: 86%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    #myMenu li ul.dropdown-menu-small div a {
+        width: 86%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    #myMenu li ul.dropdown-menu-med div a {
+        width: 86%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .nav-tabs .xs-show {
+        display: block !important;
+    }
+
+    .menuHolder {
+        width: 100%;
+        height: 0;
+    }
+
+    .menuHolder2 {
+        width: 100%;
+        height: 40px;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin: 7px -15px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .collapsing {
+        overflow: hidden !important;
+    }
+
+    .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .navbar-collapse.collapse.in {
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+    }
+
+    .logosBar-banner {
+        margin-top: 5px;
+        margin-bottom: -15px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 767px) {
+    .menuHolder2 {
+        width: 100%;
+        height: 12px;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 510px) {
+    .menuHolder {
+        width: 100%;
+        height: 0;
+    }
+
+    .menuHolder2 {
+        width: 100%;
+        height: 45px;
+    }
+}

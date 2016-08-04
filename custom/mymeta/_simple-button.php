@@ -1,0 +1,1 @@
+<br clear="all"/><div class="articleButton-Wrapper">    <a href="<?php echo getGoUrl($GLOBALS['curentOperator'], 1); ?>" target="_blank" rel="nofollow" class="hvr-wobble-horizontal">Zum <?php echo $GLOBALS['curentOperator'];?> bonus<span></span>    </a></div>
