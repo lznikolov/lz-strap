@@ -164,7 +164,8 @@ Description: Minimal wordpress theme build for working with bootstrap framework
 
 #mainContainer, #categoryContainer, #operatorContainer, #sidebarContainer,#subscribeContainer {
     background-color: white;
-    padding-top: 25px;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
 }
 /*
 #mainContent, #operatorContainer, #subscribeContainer {
