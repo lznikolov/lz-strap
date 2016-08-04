@@ -9,7 +9,7 @@
 
 <?php
 $operShortnameOrID = '';
-$bonusType = 'Casino Apps';
+$bonusType = '';
 $bonusReplace = '';
 $unsetBonusCheck = '';
 $unsetStandartCheck = '';
@@ -17,7 +17,23 @@ $bonusLimit = '';
 
 $bonuses = getBonuses($operShortnameOrID, $bonusType, $bonusReplace, $unsetBonusCheck, $unsetStandartCheck, $bonusLimit);
 
-$bundesweiteArray = array();
+
+//tam kydeto imame prazno ili text v amount go zamestwame s 0, za da moje da raboti sortirovkata
+$sortedOps = array();
+
+//just in case if we don't have a rating value for the operator
+foreach ($bonuses as $operator => $row) {
+        $rating = $row['Casino Ratings']['10rating'];
+        if (!empty($rating)) {
+            if (!is_numeric($rating)) {
+                $sortedOps[$operator] = 0;
+            } else {
+                $sortedOps[$operator] = $rating;
+            }
+        }
+}
+//sotirame syzdadeniqt array s dannite po jelaniq kluch
+array_multisort($sortedOps, SORT_DESC,SORT_NUMERIC);
 ?>
 <!-- Menu -->
 <nav id="lz-menu" class="navbar navbar-default">
@@ -50,7 +66,7 @@ $bundesweiteArray = array();
                     ?>
                     <ul class="dropdown-menu multicolumn-2" aria-labelledby="home_menu">
                         <?php
-                        foreach ($bonuses as $key => $val) {
+                        foreach ($sortedOps as $key => $val) {
                             $operatorOriginalName = $key;
                             $i == 10 ? $isCollapsed = true : null;
                             ?>
