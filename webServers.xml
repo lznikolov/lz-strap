@@ -4,6 +4,14 @@
       <webServer id="da667b06-07ff-4f92-abd8-6fe5254c77b0" name="lz-bonuscode.dev" url="http://lz-bonuscode.dev/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="02784c49-6732-4695-bb3c-6d245dbe88ed" name="sportwettenapp.net" url="https://sportwettenapp.net">
+        <fileTransfer host="212.83.50.49" port="21" rootFolder="/httpdocs/sportwettenapp.net" password="dffddfcddfcedf9fdf9edfc9df8fdf92" username="sportwettenapp">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" forceListCommand="true" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
