@@ -4,9 +4,6 @@
       <webServer id="da667b06-07ff-4f92-abd8-6fe5254c77b0" name="lz-bonuscode.dev" url="http://lz-bonuscode.dev/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
-      <webServer id="02784c49-6732-4695-bb3c-6d245dbe88ed" name="sportwettenapp.net" url="https://sportwettenapp.net">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
     </option>
   </component>
 </application>
