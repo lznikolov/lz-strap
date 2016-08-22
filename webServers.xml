@@ -4,6 +4,9 @@
       <webServer id="da667b06-07ff-4f92-abd8-6fe5254c77b0" name="lz-bonuscode.dev" url="http://lz-bonuscode.dev/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="6b0626a8-6651-458d-ad58-12336f042af4" name="lz3.dev" url="http://lz3.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
