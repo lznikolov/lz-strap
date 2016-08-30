@@ -7,6 +7,9 @@
       <webServer id="6b0626a8-6651-458d-ad58-12336f042af4" name="lz3.dev" url="http://lz3.dev">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="caac4dc8-e86f-45a0-9501-1ad1d7b6091b" name="abzocke.org" url="https://abzocke.org">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
