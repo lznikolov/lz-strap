@@ -5,4 +5,10 @@
       <option name="PHP Expression" value="true" />
     </context>
   </template>
+  <template name="src" value="?&gt;&#10;&lt;script&gt;console.log(&lt;?php echo json_encode($arr$);?&gt;)&lt;/script&gt;&#10;&lt;?php " description="js console output" toReformat="false" toShortenFQNames="true">
+    <variable name="arr" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+    </context>
+  </template>
 </templateSet>
