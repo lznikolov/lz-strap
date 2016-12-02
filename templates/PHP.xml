@@ -1,5 +1,5 @@
 <templateSet group="PHP">
-  <template name="pre" value="echo '&lt;pre&gt;',print_r($arr$,1),'&lt;/pre&gt;';" description="pre with print_r" toReformat="true" toShortenFQNames="true">
+  <template name="pre" value="echo '&lt;pre style=&quot;background:green;color:white;border:5px solid red;z-index:9999;overflow:visible;&quot;&gt;',print_r($arr$,1),'&lt;/pre&gt;';" description="pre with print_r" toReformat="true" toShortenFQNames="true">
     <variable name="arr" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Expression" value="true" />
