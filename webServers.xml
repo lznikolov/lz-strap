@@ -10,6 +10,9 @@
       <webServer id="c3b23b10-5c89-44e2-99fd-4ed11685a3f6" name="oddscron.dev" url="http://oddscron.dev/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="dbe2995b-ca50-48de-9178-e7b83c1c5098" name="lz-tools.dev" url="http://lz-tools.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
