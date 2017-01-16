@@ -112,7 +112,7 @@
             <configuration_option name="mbstring.substitute_character" value="" />
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
-            <configuration_option name="memory_limit" value="128M" />
+            <configuration_option name="memory_limit" value="256M" />
             <configuration_option name="mysqli.allow_local_infile" value="1" />
             <configuration_option name="mysqli.allow_persistent" value="1" />
             <configuration_option name="mysqli.default_host" value="" />
@@ -195,7 +195,7 @@
             <configuration_option name="sys_temp_dir" value="" />
             <configuration_option name="track_errors" value="" />
             <configuration_option name="unserialize_callback_func" value="" />
-            <configuration_option name="upload_max_filesize" value="30M" />
+            <configuration_option name="upload_max_filesize" value="40M" />
             <configuration_option name="upload_tmp_dir" value="C:\xampp\tmp" />
             <configuration_option name="url_rewriter.tags" value="a=href,area=href,frame=src,input=src,form=fakeentry" />
             <configuration_option name="user_agent" value="" />
