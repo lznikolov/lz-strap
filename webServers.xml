@@ -13,6 +13,9 @@
       <webServer id="dbe2995b-ca50-48de-9178-e7b83c1c5098" name="lz-tools.dev" url="http://lz-tools.dev">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="311aa001-9da2-420a-9677-450ad1521f00" name="pokerbonus.online" url="https://pokerbonus.online">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
