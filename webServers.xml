@@ -16,6 +16,9 @@
       <webServer id="311aa001-9da2-420a-9677-450ad1521f00" name="pokerbonus.online" url="https://pokerbonus.online">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="385b078f-8e2a-446d-a07d-20500643b09a" name="luckycmz.dev" url="http://luckycmz.dev/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
