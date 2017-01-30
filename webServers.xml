@@ -19,6 +19,9 @@
       <webServer id="385b078f-8e2a-446d-a07d-20500643b09a" name="luckycmz.dev" url="http://luckycmz.dev/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="d093ce38-6f5b-4f94-bf9a-b3b8378eff9d" name="luckylaravel.dev" url="http://luckylaravel.dev">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
