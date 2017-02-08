@@ -19,6 +19,14 @@
       <webServer id="385b078f-8e2a-446d-a07d-20500643b09a" name="luckycmz.dev" url="http://luckycmz.dev/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="47c5d7c2-260e-4827-8608-02140f3c7e8a" name="192.168.1.23" url="http://192.168.1.23/public/">
+        <fileTransfer host="192.168.1.23" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" controlEncoding="utf-8" dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
