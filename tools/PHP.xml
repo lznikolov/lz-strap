@@ -1,0 +1,9 @@
+<toolSet name="PHP">
+  <tool name="PHPDocumentator" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\xampp5.6.28\php\php.exe" />
+      <option name="PARAMETERS" value="C:\xampp\php\phpdoc  -d $FileDir$  -t  $FileDir$\docs" />
+      <option name="WORKING_DIRECTORY" value="C:/xampp/php" />
+    </exec>
+  </tool>
+</toolSet>
